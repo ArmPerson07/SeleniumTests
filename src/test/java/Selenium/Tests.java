@@ -1,6 +1,6 @@
 package Selenium;
 
-import SeleniumPageObject.*;
+import DirectoryPageObject.*;
 import com.github.javafaker.Faker;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
@@ -18,9 +18,9 @@ public class Tests extends BaseSeleniumTest {
     @DisplayName("Чек бокс")
     public void checkCheckBox() {
         CheckBoxPage checkBoxPage = new CheckBoxPage();
-        checkBoxPage.clickToCheckBox();
+        checkBoxPage.checkToDownloadsInCheckBox();
     }
-    
+
     @Test
     @DisplayName("Алертсы")
     public void checkAlerts() {

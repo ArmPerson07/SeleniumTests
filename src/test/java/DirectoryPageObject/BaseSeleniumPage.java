@@ -1,4 +1,4 @@
-package SeleniumPageObject;
+package DirectoryPageObject;
 
 import org.openqa.selenium.WebDriver;
 
